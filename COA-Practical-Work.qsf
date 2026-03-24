@@ -55,3 +55,9 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME my_cpu -section_id tb_my_de
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME test_id -section_id tb_my_design
 set_global_assignment -name EDA_TEST_BENCH_FILE ID.vwf -section_id tb_my_design
 set_global_assignment -name EDA_TEST_BENCH_FILE GPRs.vwf -section_id tb_my_design
+set_global_assignment -name QIP_FILE lpm_add_sub0.qip
+set_global_assignment -name QIP_FILE lpm_or0.qip
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name QIP_FILE lpm_compare0.qip
+set_global_assignment -name QIP_FILE lpm_compare1.qip
