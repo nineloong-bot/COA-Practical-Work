@@ -56,8 +56,45 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME test_id -section_id tb_my
 set_global_assignment -name EDA_TEST_BENCH_FILE ID.vwf -section_id tb_my_design
 set_global_assignment -name EDA_TEST_BENCH_FILE GPRs.vwf -section_id tb_my_design
 set_global_assignment -name QIP_FILE lpm_add_sub0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_ADD_SUB -qip lpm_add_sub0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_add_sub0.qip
+set_global_assignment -name MISC_FILE lpm_add_sub0.tdf -qip lpm_add_sub0.qip
+set_global_assignment -name MISC_FILE lpm_add_sub0.bsf -qip lpm_add_sub0.qip
+set_global_assignment -name MISC_FILE lpm_add_sub0.inc -qip lpm_add_sub0.qip
 set_global_assignment -name QIP_FILE lpm_or0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_OR -qip lpm_or0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_or0.qip
+set_global_assignment -name MISC_FILE lpm_or0.tdf -qip lpm_or0.qip
+set_global_assignment -name MISC_FILE lpm_or0.bsf -qip lpm_or0.qip
+set_global_assignment -name MISC_FILE lpm_or0.inc -qip lpm_or0.qip
 set_global_assignment -name BDF_FILE ALU.bdf
 set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip lpm_mux0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_mux0.qip
+set_global_assignment -name MISC_FILE lpm_mux0.tdf -qip lpm_mux0.qip
+set_global_assignment -name MISC_FILE lpm_mux0.bsf -qip lpm_mux0.qip
+set_global_assignment -name MISC_FILE lpm_mux0.inc -qip lpm_mux0.qip
 set_global_assignment -name QIP_FILE lpm_compare0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_compare0.qip
+set_global_assignment -name MISC_FILE lpm_compare0.tdf -qip lpm_compare0.qip
+set_global_assignment -name MISC_FILE lpm_compare0.bsf -qip lpm_compare0.qip
+set_global_assignment -name MISC_FILE lpm_compare0.inc -qip lpm_compare0.qip
 set_global_assignment -name QIP_FILE lpm_compare1.qip
+set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare1.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_compare1.qip
+set_global_assignment -name MISC_FILE lpm_compare1.tdf -qip lpm_compare1.qip
+set_global_assignment -name MISC_FILE lpm_compare1.bsf -qip lpm_compare1.qip
+set_global_assignment -name MISC_FILE lpm_compare1.inc -qip lpm_compare1.qip
+set_global_assignment -name QIP_FILE lpm_compare2.qip
+set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare2.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_compare2.qip
+set_global_assignment -name MISC_FILE lpm_compare2.tdf -qip lpm_compare2.qip
+set_global_assignment -name MISC_FILE lpm_compare2.bsf -qip lpm_compare2.qip
+set_global_assignment -name MISC_FILE lpm_compare2.inc -qip lpm_compare2.qip
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip lpm_mux1.qip
+set_global_assignment -name IP_TOOL_VERSION 9.1 -qip lpm_mux1.qip
+set_global_assignment -name MISC_FILE lpm_mux1.tdf -qip lpm_mux1.qip
+set_global_assignment -name MISC_FILE lpm_mux1.bsf -qip lpm_mux1.qip
+set_global_assignment -name MISC_FILE lpm_mux1.inc -qip lpm_mux1.qip

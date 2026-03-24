@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="COA-Practical-Work">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU_shift|lpm_clshift0:inst6|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_euc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
