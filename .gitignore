@@ -1,0 +1,29 @@
+# ==================================
+# Quartus II 忽略配置文件
+# ==================================
+
+# 1. 忽略原有的工程配置文件（因为我们已经用 auto_build.tcl 替代了）
+*.qsf
+*.qpf
+
+# 2. 忽略 Quartus 编译产生的庞大临时文件夹
+db/
+incremental_db/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+simulation/
+
+# 3. 忽略各种编译报告和中间产物
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.pof
+*.sof
+*.spa
+*.qws
+*.vwm
+*.bak
+*.orig
