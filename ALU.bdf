@@ -728,6 +728,57 @@ applicable agreement for further details.
 		(arc (pt 28 44)(pt 52 32)(rect -2 -16 58 44)(line_width 1))
 	)
 )
+(symbol
+	(rect 376 112 424 144)
+	(text "NOT" (rect 27 0 47 10)(font "Arial" (font_size 6)))
+	(text "inst27" (rect 16 21 45 33)(font "Arial" ))
+	(port
+		(pt 48 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 35 7 46 19)(font "Courier New" (bold))(invisible))
+		(line (pt 48 16)(pt 35 16)(line_width 1))
+	)
+	(port
+		(pt 0 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect -1 7 16 19)(font "Courier New" (bold))(invisible))
+		(line (pt 9 16)(pt 0 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 35 25)(pt 35 7)(line_width 1))
+		(line (pt 35 7)(pt 17 16)(line_width 1))
+		(line (pt 35 25)(pt 17 16)(line_width 1))
+		(circle (rect 9 12 17 20)(line_width 1))
+	)
+	(flipy)
+)
+(symbol
+	(rect 376 432 424 464)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst28" (rect 3 21 32 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16)(line_width 1))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7)(line_width 1))
+		(line (pt 13 7)(pt 31 16)(line_width 1))
+		(line (pt 13 25)(pt 31 16)(line_width 1))
+		(circle (rect 31 12 39 20)(line_width 1))
+	)
+)
 (connector
 	(pt 568 304)
 	(pt 520 304)
@@ -745,10 +796,6 @@ applicable agreement for further details.
 	(pt 496 -72)
 )
 (connector
-	(pt 496 128)
-	(pt 336 128)
-)
-(connector
 	(pt 336 224)
 	(pt 360 224)
 )
@@ -759,10 +806,6 @@ applicable agreement for further details.
 (connector
 	(pt 552 432)
 	(pt 656 432)
-)
-(connector
-	(pt 336 448)
-	(pt 656 448)
 )
 (connector
 	(text "CF" (rect 730 424 745 436)(font "Arial" ))
@@ -1001,10 +1044,6 @@ applicable agreement for further details.
 	(pt 432 64)
 )
 (connector
-	(pt 616 56)
-	(pt 672 56)
-)
-(connector
 	(pt 536 264)
 	(pt 608 264)
 	(bus)
@@ -1113,6 +1152,27 @@ applicable agreement for further details.
 	(pt 1064 400)
 	(pt 1064 504)
 	(bus)
+)
+(connector
+	(text "sel2[0]" (rect 626 40 659 52)(font "Arial" ))
+	(pt 616 56)
+	(pt 672 56)
+)
+(connector
+	(pt 336 128)
+	(pt 376 128)
+)
+(connector
+	(pt 424 128)
+	(pt 496 128)
+)
+(connector
+	(pt 336 448)
+	(pt 376 448)
+)
+(connector
+	(pt 424 448)
+	(pt 656 448)
 )
 (junction (pt 280 248))
 (junction (pt 312 280))
