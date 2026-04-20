@@ -13,9 +13,13 @@
 --applicable agreement for further details.
 
 
-FUNCTION lpm_or0 
+FUNCTION lpm_mux4 
 (
-	data0x[31..0]
+	data0x[31..0],
+	data1x[31..0],
+	data2x[31..0],
+	data3x[31..0],
+	sel[1..0]
 )
 
 RETURNS (

@@ -13,9 +13,10 @@
 --applicable agreement for further details.
 
 
-FUNCTION lpm_or0 
+FUNCTION lpm_add_sub1 
 (
-	data0x[31..0]
+	dataa[31..0],
+	datab[31..0]
 )
 
 RETURNS (

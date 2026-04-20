@@ -13,7 +13,7 @@
 --applicable agreement for further details.
 
 
-FUNCTION lpm_or0 
+FUNCTION lpm_or2 
 (
 	data0x[31..0]
 )

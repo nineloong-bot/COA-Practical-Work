@@ -4,7 +4,7 @@
 -- MODULE: lpm_or 
 
 -- ============================================================
--- File Name: lpm_or0.tdf
+-- File Name: lpm_or2.tdf
 -- Megafunction Name(s):
 -- 			lpm_or
 --
@@ -36,7 +36,7 @@ INCLUDE "lpm_or.inc";
 
 
 
-SUBDESIGN lpm_or0
+SUBDESIGN lpm_or2
 (
 	data0x[31..0]	 : INPUT;
 	result[31..0]	 : OUTPUT;
@@ -76,9 +76,9 @@ END;
 -- Retrieval info: CONNECT: @data 1 0 32 0 data0x 0 0 32 0
 -- Retrieval info: CONNECT: result 0 0 32 0 @result 0 0 32 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or0.tdf TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or0.inc TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or0.cmp FALSE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or0.bsf TRUE FALSE
--- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or0_inst.tdf FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or2.tdf TRUE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or2.inc TRUE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or2.cmp FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or2.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_or2_inst.tdf FALSE
 -- Retrieval info: LIB_FILE: lpm
