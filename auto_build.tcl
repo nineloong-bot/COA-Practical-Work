@@ -64,6 +64,21 @@ if {$make_assignments} {
 		puts "已自动添加 Verilog 文件: $f"
 	}
 
+	# 扫描所有压缩仿真波形文件 (.cvwf)
+	set cvwf_files [glob -nocomplain *.cvwf]
+	foreach f $cvwf_files {
+		# 使用正确的波形文件标识，这样 Quartus 就能在左侧 Files 列表中正确分类显示它
+		set_global_assignment -name VECTOR_WAVEFORM_FILE $f
+		puts "已自动添加 CVWF 波形文件: $f"
+	}
+
+    # 扫描所有 .mif 文件
+	set mif_files [glob -nocomplain *.mif]
+	foreach f $mif_files {
+		set_global_assignment -name MIF_FILE $f
+		puts "已自动添加 MIF 文件: $f"
+	}
+
     # 扫描所有测试波形文件 (.vwf)
 	set vwf_files [glob -nocomplain *.vwf]
 	foreach f $vwf_files {
