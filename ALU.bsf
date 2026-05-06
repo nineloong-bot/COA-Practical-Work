@@ -61,9 +61,23 @@ applicable agreement for further details.
 	(port
 		(pt 152 32)
 		(output)
+		(text "LESS" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "LESS" (rect 101 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32)(line_width 1))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "ZERO" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "ZERO" (rect 98 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48)(line_width 1))
+	)
+	(port
+		(pt 152 64)
+		(output)
 		(text "out[31..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
-		(text "out[31..0]" (rect 78 27 131 41)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
+		(text "out[31..0]" (rect 78 59 131 73)(font "Arial" (font_size 8)))
+		(line (pt 152 64)(pt 136 64)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 136 112)(line_width 1))
