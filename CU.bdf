@@ -555,7 +555,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 448 656 480 688)
+	(rect 400 616 432 648)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst19" (rect 3 21 32 33)(font "Arial" )(invisible))
 	(port
@@ -572,7 +572,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 64 376 128 584)
+	(rect 40 304 104 512)
 	(text "OR12" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "orRegWr" (rect 3 197 46 209)(font "Arial" ))
 	(port
@@ -677,7 +677,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 64 592 128 640)
+	(rect 40 528 104 576)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orMemRd" (rect 3 37 50 49)(font "Arial" ))
 	(port
@@ -710,7 +710,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 296 360 360 408)
+	(rect 232 336 296 384)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orBrn" (rect 3 37 28 49)(font "Arial" ))
 	(port
@@ -743,7 +743,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 296 432 360 512)
+	(rect 232 408 296 488)
 	(text "OR4" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orExtOp1" (rect 3 69 49 81)(font "Arial" ))
 	(port
@@ -792,7 +792,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 504 536 568 648)
+	(rect 456 496 520 608)
 	(text "OR6" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orALUctr0" (rect 3 101 52 113)(font "Arial" ))
 	(port
@@ -855,7 +855,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 504 464 568 512)
+	(rect 456 424 520 472)
 	(text "OR3" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orALUctr1" (rect 3 37 52 49)(font "Arial" ))
 	(port
@@ -895,7 +895,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 504 408 568 456)
+	(rect 456 368 520 416)
 	(text "OR3" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orALUctr2" (rect 3 37 52 49)(font "Arial" ))
 	(port
@@ -935,7 +935,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 296 592 360 704)
+	(rect 232 568 296 680)
 	(text "OR6" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orALUB0" (rect 3 101 46 113)(font "Arial" ))
 	(port
@@ -998,7 +998,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 296 528 360 576)
+	(rect 232 504 296 552)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "orExtOp0" (rect 3 37 49 49)(font "Arial" ))
 	(port
@@ -1031,7 +1031,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 736 416 800 464)
+	(rect 688 376 752 424)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst20" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -1212,141 +1212,6 @@ applicable agreement for further details.
 	(pt 488 296)
 )
 (connector
-	(text "_ADD" (rect 26 376 55 388)(font "Arial" ))
-	(pt 64 392)
-	(pt 16 392)
-)
-(connector
-	(text "_SUB" (rect 26 392 54 404)(font "Arial" ))
-	(pt 64 408)
-	(pt 16 408)
-)
-(connector
-	(text "_ADDI" (rect 26 408 59 420)(font "Arial" ))
-	(pt 64 424)
-	(pt 16 424)
-)
-(connector
-	(text "_ORI" (rect 26 424 51 436)(font "Arial" ))
-	(pt 64 440)
-	(pt 16 440)
-)
-(connector
-	(text "_SLL" (rect 26 440 50 452)(font "Arial" ))
-	(pt 64 456)
-	(pt 16 456)
-)
-(connector
-	(text "_SRA" (rect 26 456 54 468)(font "Arial" ))
-	(pt 64 472)
-	(pt 16 472)
-)
-(connector
-	(text "_SLT" (rect 26 472 50 484)(font "Arial" ))
-	(pt 64 488)
-	(pt 16 488)
-)
-(connector
-	(text "_SLTU" (rect 26 488 59 500)(font "Arial" ))
-	(pt 64 504)
-	(pt 16 504)
-)
-(connector
-	(text "_LUI" (rect 26 504 49 516)(font "Arial" ))
-	(pt 64 520)
-	(pt 16 520)
-)
-(connector
-	(text "_LW" (rect 26 520 48 532)(font "Arial" ))
-	(pt 64 536)
-	(pt 16 536)
-)
-(connector
-	(text "_LB" (rect 26 536 44 548)(font "Arial" ))
-	(pt 64 552)
-	(pt 16 552)
-)
-(connector
-	(text "_JAL" (rect 26 552 50 564)(font "Arial" ))
-	(pt 64 568)
-	(pt 16 568)
-)
-(connector
-	(text "MemRd" (rect 138 600 175 612)(font "Arial" ))
-	(pt 128 616)
-	(pt 184 616)
-)
-(connector
-	(text "_LW" (rect 26 592 48 604)(font "Arial" ))
-	(pt 64 608)
-	(pt 16 608)
-)
-(connector
-	(text "_LB" (rect 26 608 44 620)(font "Arial" ))
-	(pt 64 624)
-	(pt 16 624)
-)
-(connector
-	(text "RegWr" (rect 138 464 172 476)(font "Arial" ))
-	(pt 128 480)
-	(pt 184 480)
-)
-(connector
-	(text "Brn" (rect 370 368 386 380)(font "Arial" ))
-	(pt 360 384)
-	(pt 416 384)
-)
-(connector
-	(text "_BEQ" (rect 258 360 286 372)(font "Arial" ))
-	(pt 248 376)
-	(pt 296 376)
-)
-(connector
-	(text "_BLT" (rect 258 376 282 388)(font "Arial" ))
-	(pt 248 392)
-	(pt 296 392)
-)
-(connector
-	(text "_ADDI" (rect 258 432 291 444)(font "Arial" ))
-	(pt 296 448)
-	(pt 248 448)
-)
-(connector
-	(text "_LW" (rect 258 448 280 460)(font "Arial" ))
-	(pt 296 464)
-	(pt 248 464)
-)
-(connector
-	(text "_LB" (rect 258 464 276 476)(font "Arial" ))
-	(pt 296 480)
-	(pt 248 480)
-)
-(connector
-	(text "_SW" (rect 258 480 281 492)(font "Arial" ))
-	(pt 296 496)
-	(pt 248 496)
-)
-(connector
-	(text "ExtOp[1]" (rect 370 456 413 468)(font "Arial" ))
-	(pt 360 472)
-	(pt 416 472)
-)
-(connector
-	(text "_LUI" (rect 258 528 281 540)(font "Arial" ))
-	(pt 296 544)
-	(pt 248 544)
-)
-(connector
-	(text "_SW" (rect 258 544 281 556)(font "Arial" ))
-	(pt 296 560)
-	(pt 248 560)
-)
-(connector
-	(text "ExtOp[0]" (rect 370 536 413 548)(font "Arial" ))
-	(pt 360 552)
-	(pt 416 552)
-)
-(connector
 	(text "_LUI,_JAL" (rect 530 288 581 300)(font "Arial" ))
 	(pt 584 304)
 	(pt 520 304)
@@ -1379,135 +1244,270 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "_ADDI" (rect 258 592 291 604)(font "Arial" ))
-	(pt 296 608)
-	(pt 248 608)
-)
-(connector
-	(text "_ORI" (rect 258 608 283 620)(font "Arial" ))
-	(pt 296 624)
-	(pt 248 624)
-)
-(connector
-	(text "_LW" (rect 258 624 280 636)(font "Arial" ))
-	(pt 296 640)
-	(pt 248 640)
-)
-(connector
-	(text "_LB" (rect 258 640 276 652)(font "Arial" ))
-	(pt 296 656)
-	(pt 248 656)
-)
-(connector
-	(text "_SW" (rect 258 656 281 668)(font "Arial" ))
-	(pt 296 672)
-	(pt 248 672)
-)
-(connector
-	(text "_LUI" (rect 258 672 281 684)(font "Arial" ))
-	(pt 296 688)
-	(pt 248 688)
-)
-(connector
-	(text "B[0]" (rect 370 632 390 644)(font "Arial" ))
-	(pt 416 648)
-	(pt 360 648)
-)
-(connector
-	(text "_SLT" (rect 474 416 498 428)(font "Arial" ))
-	(pt 504 424)
-	(pt 464 424)
-)
-(connector
-	(text "_SLTU" (rect 474 424 507 436)(font "Arial" ))
-	(pt 504 432)
-	(pt 464 432)
-)
-(connector
-	(text "_SRA" (rect 474 432 502 444)(font "Arial" ))
-	(pt 504 440)
-	(pt 464 440)
-)
-(connector
-	(text "ALU_ctr[2]" (rect 578 416 631 428)(font "Arial" ))
-	(pt 568 432)
-	(pt 624 432)
-)
-(connector
-	(text "ALU_ctr[0]" (rect 578 576 631 588)(font "Arial" ))
-	(pt 624 592)
-	(pt 568 592)
-)
-(connector
-	(pt 504 632)
-	(pt 464 632)
-)
-(connector
-	(pt 464 632)
-	(pt 464 656)
-)
-(connector
-	(text "_SUB" (rect 474 536 502 548)(font "Arial" ))
-	(pt 464 552)
-	(pt 504 552)
-)
-(connector
-	(text "_BEQ" (rect 474 552 502 564)(font "Arial" ))
-	(pt 504 568)
-	(pt 464 568)
-)
-(connector
-	(text "_BLT" (rect 474 568 498 580)(font "Arial" ))
-	(pt 504 584)
-	(pt 464 584)
-)
-(connector
-	(text "_SLL" (rect 474 584 498 596)(font "Arial" ))
-	(pt 504 600)
-	(pt 464 600)
-)
-(connector
-	(text "_SLTU" (rect 474 600 507 612)(font "Arial" ))
-	(pt 504 616)
-	(pt 464 616)
-)
-(connector
-	(text "_ORI" (rect 474 472 499 484)(font "Arial" ))
-	(pt 504 480)
-	(pt 464 480)
-)
-(connector
-	(text "_SLL" (rect 474 480 498 492)(font "Arial" ))
-	(pt 504 488)
-	(pt 464 488)
-)
-(connector
-	(text "_SRA" (rect 474 488 502 500)(font "Arial" ))
-	(pt 504 496)
-	(pt 464 496)
-)
-(connector
-	(text "ALU_ctr[1]" (rect 578 472 631 484)(font "Arial" ))
-	(pt 568 488)
-	(pt 624 488)
-)
-(connector
 	(text "~Reset" (rect 10 264 45 276)(font "Arial" ))
 	(pt 40 280)
 	(pt 0 280)
 )
 (connector
-	(text "WB_src" (rect 810 424 848 436)(font "Arial" ))
-	(pt 800 440)
-	(pt 848 440)
+	(text "_ADD" (rect 2 304 31 316)(font "Arial" ))
+	(pt 40 320)
+	(pt -8 320)
 )
 (connector
-	(text "_LW" (rect 706 416 728 428)(font "Arial" ))
-	(pt 736 432)
-	(pt 696 432)
+	(text "_SUB" (rect 2 320 30 332)(font "Arial" ))
+	(pt 40 336)
+	(pt -8 336)
 )
 (connector
-	(text "_LB" (rect 706 432 724 444)(font "Arial" ))
-	(pt 736 448)
-	(pt 696 448)
+	(text "_ADDI" (rect 2 336 35 348)(font "Arial" ))
+	(pt 40 352)
+	(pt -8 352)
+)
+(connector
+	(text "_ORI" (rect 2 352 27 364)(font "Arial" ))
+	(pt 40 368)
+	(pt -8 368)
+)
+(connector
+	(text "_SLL" (rect 2 368 26 380)(font "Arial" ))
+	(pt 40 384)
+	(pt -8 384)
+)
+(connector
+	(text "_SRA" (rect 2 384 30 396)(font "Arial" ))
+	(pt 40 400)
+	(pt -8 400)
+)
+(connector
+	(text "_SLT" (rect 2 400 26 412)(font "Arial" ))
+	(pt 40 416)
+	(pt -8 416)
+)
+(connector
+	(text "_SLTU" (rect 2 416 35 428)(font "Arial" ))
+	(pt 40 432)
+	(pt -8 432)
+)
+(connector
+	(text "_LUI" (rect 2 432 25 444)(font "Arial" ))
+	(pt 40 448)
+	(pt -8 448)
+)
+(connector
+	(text "_LW" (rect 2 448 24 460)(font "Arial" ))
+	(pt 40 464)
+	(pt -8 464)
+)
+(connector
+	(text "_LB" (rect 2 464 20 476)(font "Arial" ))
+	(pt 40 480)
+	(pt -8 480)
+)
+(connector
+	(text "_JAL" (rect 2 480 26 492)(font "Arial" ))
+	(pt 40 496)
+	(pt -8 496)
+)
+(connector
+	(text "RegWr" (rect 114 392 148 404)(font "Arial" ))
+	(pt 104 408)
+	(pt 160 408)
+)
+(connector
+	(text "MemRd" (rect 114 536 151 548)(font "Arial" ))
+	(pt 104 552)
+	(pt 160 552)
+)
+(connector
+	(text "_LW" (rect 2 528 24 540)(font "Arial" ))
+	(pt 40 544)
+	(pt -8 544)
+)
+(connector
+	(text "_LB" (rect 2 544 20 556)(font "Arial" ))
+	(pt 40 560)
+	(pt -8 560)
+)
+(connector
+	(text "Brn" (rect 306 344 322 356)(font "Arial" ))
+	(pt 296 360)
+	(pt 352 360)
+)
+(connector
+	(text "_BEQ" (rect 194 336 222 348)(font "Arial" ))
+	(pt 184 352)
+	(pt 232 352)
+)
+(connector
+	(text "_BLT" (rect 194 352 218 364)(font "Arial" ))
+	(pt 184 368)
+	(pt 232 368)
+)
+(connector
+	(text "_ADDI" (rect 194 408 227 420)(font "Arial" ))
+	(pt 232 424)
+	(pt 184 424)
+)
+(connector
+	(text "_LW" (rect 194 424 216 436)(font "Arial" ))
+	(pt 232 440)
+	(pt 184 440)
+)
+(connector
+	(text "_LB" (rect 194 440 212 452)(font "Arial" ))
+	(pt 232 456)
+	(pt 184 456)
+)
+(connector
+	(text "_SW" (rect 194 456 217 468)(font "Arial" ))
+	(pt 232 472)
+	(pt 184 472)
+)
+(connector
+	(text "ExtOp[1]" (rect 306 432 349 444)(font "Arial" ))
+	(pt 296 448)
+	(pt 352 448)
+)
+(connector
+	(text "_LUI" (rect 194 504 217 516)(font "Arial" ))
+	(pt 232 520)
+	(pt 184 520)
+)
+(connector
+	(text "_SW" (rect 194 520 217 532)(font "Arial" ))
+	(pt 232 536)
+	(pt 184 536)
+)
+(connector
+	(text "ExtOp[0]" (rect 306 512 349 524)(font "Arial" ))
+	(pt 296 528)
+	(pt 352 528)
+)
+(connector
+	(text "_ADDI" (rect 194 568 227 580)(font "Arial" ))
+	(pt 232 584)
+	(pt 184 584)
+)
+(connector
+	(text "_ORI" (rect 194 584 219 596)(font "Arial" ))
+	(pt 232 600)
+	(pt 184 600)
+)
+(connector
+	(text "_LW" (rect 194 600 216 612)(font "Arial" ))
+	(pt 232 616)
+	(pt 184 616)
+)
+(connector
+	(text "_LB" (rect 194 616 212 628)(font "Arial" ))
+	(pt 232 632)
+	(pt 184 632)
+)
+(connector
+	(text "_SW" (rect 194 632 217 644)(font "Arial" ))
+	(pt 232 648)
+	(pt 184 648)
+)
+(connector
+	(text "_LUI" (rect 194 648 217 660)(font "Arial" ))
+	(pt 232 664)
+	(pt 184 664)
+)
+(connector
+	(text "B[0]" (rect 306 608 326 620)(font "Arial" ))
+	(pt 352 624)
+	(pt 296 624)
+)
+(connector
+	(text "_SLT" (rect 426 376 450 388)(font "Arial" ))
+	(pt 456 384)
+	(pt 416 384)
+)
+(connector
+	(text "_SLTU" (rect 426 384 459 396)(font "Arial" ))
+	(pt 456 392)
+	(pt 416 392)
+)
+(connector
+	(text "_SRA" (rect 426 392 454 404)(font "Arial" ))
+	(pt 456 400)
+	(pt 416 400)
+)
+(connector
+	(text "ALU_ctr[2]" (rect 530 376 583 388)(font "Arial" ))
+	(pt 520 392)
+	(pt 576 392)
+)
+(connector
+	(text "ALU_ctr[0]" (rect 530 536 583 548)(font "Arial" ))
+	(pt 576 552)
+	(pt 520 552)
+)
+(connector
+	(pt 456 592)
+	(pt 416 592)
+)
+(connector
+	(pt 416 592)
+	(pt 416 616)
+)
+(connector
+	(text "_SUB" (rect 426 496 454 508)(font "Arial" ))
+	(pt 416 512)
+	(pt 456 512)
+)
+(connector
+	(text "_BEQ" (rect 426 512 454 524)(font "Arial" ))
+	(pt 456 528)
+	(pt 416 528)
+)
+(connector
+	(text "_BLT" (rect 426 528 450 540)(font "Arial" ))
+	(pt 456 544)
+	(pt 416 544)
+)
+(connector
+	(text "_SLL" (rect 426 544 450 556)(font "Arial" ))
+	(pt 456 560)
+	(pt 416 560)
+)
+(connector
+	(text "_SLTU" (rect 426 560 459 572)(font "Arial" ))
+	(pt 456 576)
+	(pt 416 576)
+)
+(connector
+	(text "_ORI" (rect 426 432 451 444)(font "Arial" ))
+	(pt 456 440)
+	(pt 416 440)
+)
+(connector
+	(text "_SLL" (rect 426 440 450 452)(font "Arial" ))
+	(pt 456 448)
+	(pt 416 448)
+)
+(connector
+	(text "_SRA" (rect 426 448 454 460)(font "Arial" ))
+	(pt 456 456)
+	(pt 416 456)
+)
+(connector
+	(text "ALU_ctr[1]" (rect 530 432 583 444)(font "Arial" ))
+	(pt 520 448)
+	(pt 576 448)
+)
+(connector
+	(text "WB_src" (rect 762 384 800 396)(font "Arial" ))
+	(pt 752 400)
+	(pt 800 400)
+)
+(connector
+	(text "_LW" (rect 658 376 680 388)(font "Arial" ))
+	(pt 688 392)
+	(pt 648 392)
+)
+(connector
+	(text "_LB" (rect 658 392 676 404)(font "Arial" ))
+	(pt 688 408)
+	(pt 648 408)
 )
