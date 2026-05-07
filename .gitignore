@@ -29,5 +29,4 @@ simulation/
 *.orig
 
 # 4. 忽略代码文件
-*.v
 *.py
