@@ -356,12 +356,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "Jmp, MUX_sel0" (rect 616 320 692 332)(font "Arial" ))
-	(pt 600 336)
-	(pt 664 336)
-	(bus)
-)
-(connector
 	(text "Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[31],Inst[19..12],Inst[20],Inst[30..21],ZERO" (rect 400 352 1087 364)(font "Arial" ))
 	(pt 520 240)
 	(pt 416 240)
@@ -387,6 +381,12 @@ applicable agreement for further details.
 	(text "ZERO" (rect 890 456 920 468)(font "Arial" ))
 	(pt 880 472)
 	(pt 928 472)
+)
+(connector
+	(text "Jmp,MUX_sel0" (rect 616 320 689 332)(font "Arial" ))
+	(pt 600 336)
+	(pt 664 336)
+	(bus)
 )
 (text "指令字的高25位" (rect 168 304 267 318)(font "Arial" (font_size 8)))
 (text "J型指令标志位" (rect 168 424 258 438)(font "Arial" (font_size 8)))
