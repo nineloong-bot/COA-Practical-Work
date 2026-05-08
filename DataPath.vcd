@@ -1,0 +1,441 @@
+$comment
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+$end
+
+$date 
+  05/08/2026 11:38:11 
+$end
+$version 
+ QUARTUS_VCD_EXPORT 1.0 
+$end
+$timescale
+  1 ps
+$end
+$var reg 1 ! Reset $end
+$var reg 1 " P0 $end
+$var reg 1 # P1 $end
+$var reg 32 $ IMEM_Data_In[31:0] $end
+$var reg 32 % DMEM_Data_In[31:0] $end
+$var reg 1 & RegWr $end
+$var reg 1 ' WB_src $end
+$var reg 3 ( ALU_ctr[2:0] $end
+$var reg 2 ) ALUA_src[1:0] $end
+$var reg 2 * ALUB_src[1:0] $end
+$var reg 2 + ExtOp[1:0] $end
+$var reg 1 , Is_lb $end
+$var reg 1 - MemRd $end
+$var reg 1 . MemWr $end
+$var reg 1 / Jmp $end
+$var reg 1 0 Brn $end
+$var reg 1 1 Brn_cond $end
+$var reg 30 2 IMEM_Addr_Out[29:0] $end
+$var reg 30 3 DMEM_Addr_Out[29:0] $end
+$var reg 32 4 DMEM_Data_Out[31:0] $end
+$var reg 32 5 NPC_Out[31:0] $end
+$var reg 32 6 RWD_Out[31:0] $end
+$var reg 1 7 P0_Clk_Out $end
+$var reg 1 8 MemRd_Out $end
+$var reg 1 9 MemWr_Out $end
+$var reg 1 : P1_Clk_Out $end
+$var reg 1 ; IMRd_Out $end
+$var reg 1 < Inst_Out[31] $end
+$var reg 1 = Inst_Out[30] $end
+$var reg 1 > Inst_Out[29] $end
+$var reg 1 ? Inst_Out[28] $end
+$var reg 1 @ Inst_Out[27] $end
+$var reg 1 A Inst_Out[26] $end
+$var reg 1 B Inst_Out[25] $end
+$var reg 1 C Inst_Out[24] $end
+$var reg 1 D Inst_Out[23] $end
+$var reg 1 E Inst_Out[22] $end
+$var reg 1 F Inst_Out[21] $end
+$var reg 1 G Inst_Out[20] $end
+$var reg 1 H Inst_Out[19] $end
+$var reg 1 I Inst_Out[18] $end
+$var reg 1 J Inst_Out[17] $end
+$var reg 1 K Inst_Out[16] $end
+$var reg 1 L Inst_Out[15] $end
+$var reg 1 M Inst_Out[14] $end
+$var reg 1 N Inst_Out[13] $end
+$var reg 1 O Inst_Out[12] $end
+$var reg 1 P Inst_Out[11] $end
+$var reg 1 Q Inst_Out[10] $end
+$var reg 1 R Inst_Out[9] $end
+$var reg 1 S Inst_Out[8] $end
+$var reg 1 T Inst_Out[7] $end
+$var reg 1 U Inst_Out[6] $end
+$var reg 1 V Inst_Out[5] $end
+$var reg 1 W Inst_Out[4] $end
+$var reg 1 X Inst_Out[3] $end
+$var reg 1 Y Inst_Out[2] $end
+$var reg 1 Z Inst_Out[1] $end
+$var reg 1 [ Inst_Out[0] $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+b0 $
+b0 %
+0&
+0'
+b0 (
+b0 )
+b0 *
+b0 +
+0,
+0-
+0.
+0/
+00
+01
+b0 2
+b0 3
+b0 4
+b100 5
+b0 6
+07
+08
+09
+0:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+$end
+#40000
+1#
+1:
+#50000
+0#
+0:
+#90000
+1"
+17
+#100000
+0!
+0"
+b10000010110111 $
+1&
+b1 *
+b11 +
+b100000000000 3
+b10000000000000 6
+07
+1N
+1T
+1V
+1W
+1Y
+1Z
+1[
+#140000
+1#
+b1 2
+b1000 5
+1:
+#150000
+0#
+0:
+#190000
+1"
+17
+#200000
+0"
+b10000000110000100010011 $
+b10 (
+b0 +
+b1 3
+b100 6
+07
+1E
+1M
+1S
+0T
+0V
+0Y
+#240000
+1#
+b10 2
+b1100 5
+1:
+#250000
+0#
+0:
+#290000
+1"
+17
+#300000
+0"
+b1000000001000001000000110110011 $
+b1 (
+b0 *
+b11111111111 3
+b100 4
+b1111111111100 6
+07
+1=
+0E
+1F
+1L
+0M
+0N
+1T
+1V
+#340000
+1#
+b11 2
+b10000 5
+1:
+#350000
+0#
+0:
+#390000
+1"
+17
+#400000
+0"
+b100011010001000110011 $
+b100 (
+b0 3
+b10000000000000 4
+b1 6
+07
+0=
+0F
+1G
+1K
+1N
+1R
+0S
+0T
+#440000
+1#
+b100 2
+b10100 5
+1:
+#450000
+0#
+0:
+#490000
+1"
+17
+#500000
+0"
+b100010010000000100011 $
+0&
+b0 (
+b1 *
+b11 +
+1.
+b1000100100000000001 3
+b100010010000000000100 6
+07
+19
+0L
+0R
+0W
+#540000
+1#
+b101 2
+b11000 5
+1:
+#550000
+0#
+0:
+#590000
+1"
+17
+#600000
+0"
+b10010001010000011 $
+b10000000000000 %
+1&
+1'
+b10 +
+1-
+0.
+b10 3
+b0 4
+b10000000000000 6
+07
+18
+09
+0G
+1R
+1T
+0V
+#640000
+1#
+b110 2
+b11100 5
+1:
+#650000
+0#
+0:
+#690000
+1"
+17
+#700000
+0"
+b1010 %
+b1010 6
+07
+#740000
+1#
+b111 2
+b100000 5
+1:
+#750000
+0#
+0:
+#790000
+1"
+17
+#800000
+0"
+b11111110001100101100110011100011 $
+b0 %
+0&
+0'
+b100 (
+b0 *
+b0 +
+0-
+10
+b0 3
+b1111111111100 4
+b1 6
+07
+08
+1<
+1=
+1>
+1?
+1@
+1A
+1B
+1F
+1G
+1J
+0K
+1L
+1M
+0N
+1P
+1Q
+0R
+1U
+1V
+#840000
+1#
+b1000 2
+b100100 5
+1:
+#850000
+0#
+0:
+#890000
+1"
+17
+#900000
+0"
+11
+b11000 5
+07
+#940000
+1#
+b110 2
+b10000 5
+1:
+#950000
+0#
+0:
+#990000
+1"
+17
+#1000000
+0"
+b11111111100111111111001101101111 $
+1&
+b0 (
+b1 )
+b10 *
+1/
+00
+01
+b1001 3
+b0 4
+b100100 6
+07
+1C
+1D
+0F
+1H
+1I
+1K
+1N
+1O
+0P
+0Q
+1R
+1S
+0T
+1X
+1Y
+#1040000
+1#
+b100 2
+b111 3
+b1000 5
+b11100 6
+1:
+#1050000
+0#
+0:
+#1090000
+1"
+17
+#1100000
