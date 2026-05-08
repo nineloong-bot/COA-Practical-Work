@@ -1,0 +1,76 @@
+$comment
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+$end
+
+$date 
+  05/08/2026 23:22:12 
+$end
+$version 
+ QUARTUS_VCD_EXPORT 1.0 
+$end
+$timescale
+  1 ps
+$end
+$var reg 32 ! ALU_Result[31:0] $end
+$var reg 32 " DMEM_Data_In[31:0] $end
+$var reg 32 # WriteData_In[31:0] $end
+$var reg 30 $ DMEM_Addr_Out[29:0] $end
+$var reg 32 % DMEM_Data_Out[31:0] $end
+$var reg 32 & ReadData_Out[31:0] $end
+$var reg 1 ' Is_lb $end
+$var reg 1 ( MemRd_Out $end
+$var reg 1 ) MemWr_Out $end
+$var reg 1 * P1_Clk_Out $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000000000000 !
+b10000111011001010100001100100001 "
+b0 #
+b10000000000 $
+b0 %
+b10000111011001010100001100100001 &
+0'
+X(
+X)
+X*
+$end
+#100000
+b100001 &
+1'
+#200000
+b1000000000001 !
+b10000111011001011010001100100001 "
+b11111111111111111111111110100011 &
+#300000
+b1000000000010 !
+b10000111100001010100001100100001 "
+b11111111111111111111111110000101 &
+#400000
+b1000000000011 !
+b1110111011001010100001100100001 "
+b1110111 &
+#500000
+b0 !
+b0 "
+b11011110101011011011111011101111 #
+b0 $
+b11011110101011011011111011101111 %
+b0 &
+0'
+#600000
+b0 #
+b0 %
+#1000000

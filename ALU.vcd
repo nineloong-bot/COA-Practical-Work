@@ -1,0 +1,100 @@
+$comment
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+$end
+
+$date 
+  05/08/2026 21:47:18 
+$end
+$version 
+ QUARTUS_VCD_EXPORT 1.0 
+$end
+$timescale
+  1 ps
+$end
+$var reg 32 ! A[31:0] $end
+$var reg 32 " B[31:0] $end
+$var reg 3 # op[2:0] $end
+$var reg 32 $ out[31:0] $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 !
+b1010 "
+b0 #
+b1111 $
+$end
+#50000
+b1111111111111111111111111111111 !
+b1 "
+b10000000000000000000000000000000 $
+#100000
+b1010 !
+b101 "
+b1 #
+b101 $
+#150000
+b10000000000000000000000000000000 !
+b1 "
+b1111111111111111111111111111111 $
+#200000
+b1111000011110000111100001111 !
+b11110000111100001111000011110000 "
+b10 #
+b11111111111111111111111111111111 $
+#300000
+b1 !
+b100 "
+b11 #
+b10000 $
+#400000
+b11111111111111111111111111111111 !
+b0 "
+b100 #
+b1 $
+#430000
+b0 !
+b11111111111111111111111111111111 "
+b0 $
+#460000
+b10000000000000000000000000000000 !
+b1111111111111111111111111111111 "
+b1 $
+#500000
+b11111111111111111111111111111111 !
+b0 "
+b101 #
+b0 $
+#550000
+b0 !
+b11111111111111111111111111111111 "
+b1 $
+#600000
+b10000000000000000000000000000000 !
+b100 "
+b110 #
+b11111000000000000000000000000000 $
+#700000
+b10010001101000101011001111000 !
+b10010001101000101011001111000 "
+b111 #
+b1 $
+#750000
+b10000111011001010100001100100001 "
+b0 $
+#800000
+b0 !
+b0 "
+b0 #
+#1000000
