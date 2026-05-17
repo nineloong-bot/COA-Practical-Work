@@ -13,15 +13,11 @@
 --applicable agreement for further details.
 
 
-FUNCTION DMEM 
+FUNCTION lpm_compare3 
 (
-	address[9..0],
-	clken,
-	clock,
-	data[31..0],
-	wren
+	dataa[19..0]
 )
 
 RETURNS (
-	q[31..0]
+	AeB
 );

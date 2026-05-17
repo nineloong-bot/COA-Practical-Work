@@ -16,6 +16,7 @@
 FUNCTION IMEM 
 (
 	address[9..0],
+	clken,
 	clock
 )
 
